@@ -6,7 +6,7 @@ const multerConfig = require('../Middlewares/multerMiddleware');
 const menuController = require('../Controllers/menuController');
 
 
-const deliveryInformationController = require('../controllers/deliveryInformationController');
+const deliveryInformationController = require('../Controllers/deliveryInformationController');
 
 const router = new express.Router();
 
